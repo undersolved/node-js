@@ -1,4 +1,13 @@
-const fs = require('fs');
+const fs = require("fs");
+const content_1 = fs.readFileSync("notes.txt", "utf-8");
+
+console.log(content_1);
+
+
+
+
+
+
 
 
 // echo "# node-js" >> README.md
