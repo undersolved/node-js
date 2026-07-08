@@ -1,0 +1,28 @@
+HTTP METHODS (requests)
+
+   ----> GET, POST, PUT, PATCH, DELETE
+
+      ----> When a client sends a request, it has a method attached to it
+      ----> GET : When client wants to get some data from the server
+      ----> POST : When the client wants to send some data to the server, uplaod, create a new comment
+      ----> PATCH : When client wants to update some existing data
+      ----> DELETE : Whn client wants to delete some data
+
+
+STATUS CODES (responses) 
+
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+
+   ----> 404 : thing you are trying to access, is not found
+   ----> status code is used to tell what kind of response it is
+   ----> 200 : everythin okay
+   ----> 201 : Something created + okay
+   ----> 400 : Bad request
+   ----> 404 : Not found
+   ----> 500 : Server Error
+
+      ----> 100 - 199 : Informational responses
+      ----> 200 - 299 : Successful responses
+      ----> 300 - 399 : Redirection messages
+      ----> 400 - 499 : Client error responses
+      ----> 500 - 599 : Server error responses 
