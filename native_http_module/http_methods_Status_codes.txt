@@ -26,3 +26,11 @@ STATUS CODES (responses)
       ----> 300 - 399 : Redirection messages
       ----> 400 - 499 : Client error responses
       ----> 500 - 599 : Server error responses 
+
+
+-----*> this kind of code is used to send response
+
+    fs.readFile("notes.txt", "utf-8", (error, data) => {
+	if (error) console.log(error);
+	else console.log("here are the content", data);
+});
