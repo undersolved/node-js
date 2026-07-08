@@ -1,2 +1,17 @@
 client --> client sends a request to a server
 server --> a machine that is connected to internet with public facing static IP address or a baremetal server, 24/7 uptime machine
+request <<<----->>> response
+this cycle makes the client server communiaction possible
+
+
+request response cycle diagram
+
+│     │
+│     │
+│     │
+│     │
+│     │
+│     │
+│     │
+│     │
+
