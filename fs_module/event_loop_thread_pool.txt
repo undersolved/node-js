@@ -1,1 +1,14 @@
 lets understand the internal architechture for events
+
+1. event loop's entire purpose is to watch and keep track of the event queue
+2. event loop will check whether its a blocking or non blocking operation
+3. lets say it was a blocking operation
+4. rest of the users will wait in the queue because event loop is busy due to the blocking code
+5. lets sat now this ia a non blocking operation
+6. so now this non blocking operation will be forwared to a threadpool as it requires a CPU for processing that task
+7. threadpool are worker threads (usually 4), this task is assigned to one worker and then the event loop continues new task
+8. these threads are off loaded to work on a CPU intensive task
+
+1. we can not decide which task goes into threadpool
+
+1. in some cases we may want to use the blocking operations 
