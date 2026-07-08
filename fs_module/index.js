@@ -10,10 +10,10 @@ fs.writeFileSync("copy.txt", "i am a disco dancer", "utf-8");
 
 fs.appendFileSync("copy.txt", content_1, "utf-8");
 
-// echo "# node-js" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/undersolved/node-js.git
-// git push -u origin main
+// creating a new folder or directly using mkdirSync
+
+fs.mkdirSync("games");
+// use this for creating folders inside folder : below
+// fs.mkdirSync('games/xyz/a',{recursive:true})
+
+
