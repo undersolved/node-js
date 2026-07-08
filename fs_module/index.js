@@ -16,4 +16,5 @@ fs.mkdirSync("games");
 // use this for creating folders inside folder : below
 // fs.mkdirSync('games/xyz/a',{recursive:true})
 
-
+// remove a directory fs.rmdirSync('games')
+// delete a file fs.unlinkSync('copy.txt)'
