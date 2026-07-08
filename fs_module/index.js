@@ -3,6 +3,9 @@ const content_1 = fs.readFileSync("notes.txt", "utf-8");
 
 console.log(content_1);
 
+// creating a file using writeFileSync(block op)
+
+fs.writeFileSync('copy.txt','i am a disco dancer','utf-8');
 
 
 
